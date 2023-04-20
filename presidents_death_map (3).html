@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9818831491b873e578fe3134f6c224bf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9818831491b873e578fe3134f6c224bf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9818831491b873e578fe3134f6c224bf = L.map(
+                "map_9818831491b873e578fe3134f6c224bf",
+                {
+                    center: [39.8283, -98.5795],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a86ef6b9ee58df9c9198a502335fe517 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+            var marker_8ff5f1fe5980dabf13355ef3036e3b2b = L.marker(
+                [38.710179, -77.08881985277044],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_66e4df286ede222d47df1da99a252056 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_172d8286a24a1b652c34f23e52745de9 = $(`<div id="html_172d8286a24a1b652c34f23e52745de9" style="width: 100.0%; height: 100.0%;">George Washington died here.</div>`)[0];
+                popup_66e4df286ede222d47df1da99a252056.setContent(html_172d8286a24a1b652c34f23e52745de9);
+            
+        
+
+        marker_8ff5f1fe5980dabf13355ef3036e3b2b.bindPopup(popup_66e4df286ede222d47df1da99a252056)
+        ;
+
+        
+    
+    
+            var marker_832e6e23b47dfac16a06d61090372e97 = L.marker(
+                [42.2509914, -71.0037374],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_10657b20d42777ad4971835b691ea787 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b6933629babe57e8f59e44ef01e751c = $(`<div id="html_9b6933629babe57e8f59e44ef01e751c" style="width: 100.0%; height: 100.0%;">John Adams died here.</div>`)[0];
+                popup_10657b20d42777ad4971835b691ea787.setContent(html_9b6933629babe57e8f59e44ef01e751c);
+            
+        
+
+        marker_832e6e23b47dfac16a06d61090372e97.bindPopup(popup_10657b20d42777ad4971835b691ea787)
+        ;
+
+        
+    
+    
+            var marker_f44c47e65b3ec4a6037dfb74335c33e4 = L.marker(
+                [38.0085107, -78.6086754],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_358bec437fc767195f9a19d85f11d666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f7e5b74b4ac16f6db57a99cdd7e91e8 = $(`<div id="html_8f7e5b74b4ac16f6db57a99cdd7e91e8" style="width: 100.0%; height: 100.0%;">Thomas Jefferson died here.</div>`)[0];
+                popup_358bec437fc767195f9a19d85f11d666.setContent(html_8f7e5b74b4ac16f6db57a99cdd7e91e8);
+            
+        
+
+        marker_f44c47e65b3ec4a6037dfb74335c33e4.bindPopup(popup_358bec437fc767195f9a19d85f11d666)
+        ;
+
+        
+    
+    
+            var marker_3e975385993e76c39aec3222a6792b0c = L.marker(
+                [38.2490349, -78.013983],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_c4408e37f0f05d0c02705c47d6c49345 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_739dd09ff67e4e20aa2fe3f5dd969fa6 = $(`<div id="html_739dd09ff67e4e20aa2fe3f5dd969fa6" style="width: 100.0%; height: 100.0%;">James Madison died here.</div>`)[0];
+                popup_c4408e37f0f05d0c02705c47d6c49345.setContent(html_739dd09ff67e4e20aa2fe3f5dd969fa6);
+            
+        
+
+        marker_3e975385993e76c39aec3222a6792b0c.bindPopup(popup_c4408e37f0f05d0c02705c47d6c49345)
+        ;
+
+        
+    
+    
+            var marker_721ada798ac187f8837aafaccbc3e2ed = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_e9ae6253176a9f3eff4799630643c022 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a74e06f5126f9fc583552eecf3dc14 = $(`<div id="html_e8a74e06f5126f9fc583552eecf3dc14" style="width: 100.0%; height: 100.0%;">James Monroe died here.</div>`)[0];
+                popup_e9ae6253176a9f3eff4799630643c022.setContent(html_e8a74e06f5126f9fc583552eecf3dc14);
+            
+        
+
+        marker_721ada798ac187f8837aafaccbc3e2ed.bindPopup(popup_e9ae6253176a9f3eff4799630643c022)
+        ;
+
+        
+    
+    
+            var marker_3c12fb02ed5bb1af07256b5aee23a291 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_49febdfd24d4ed2f57c58888a1955c90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c19ea6dfcfa6d4bf3ab0e0eda0cd379 = $(`<div id="html_8c19ea6dfcfa6d4bf3ab0e0eda0cd379" style="width: 100.0%; height: 100.0%;">John Quincy Adams died here.</div>`)[0];
+                popup_49febdfd24d4ed2f57c58888a1955c90.setContent(html_8c19ea6dfcfa6d4bf3ab0e0eda0cd379);
+            
+        
+
+        marker_3c12fb02ed5bb1af07256b5aee23a291.bindPopup(popup_49febdfd24d4ed2f57c58888a1955c90)
+        ;
+
+        
+    
+    
+            var marker_f39c1029f273e234f411e2c00c1a8b30 = L.marker(
+                [36.1622767, -86.7742984],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_89eb47ea28c1e32dce9681cb678dbf80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_178994d13d2305594a22e722300a3f9d = $(`<div id="html_178994d13d2305594a22e722300a3f9d" style="width: 100.0%; height: 100.0%;">Andrew Jackson died here.</div>`)[0];
+                popup_89eb47ea28c1e32dce9681cb678dbf80.setContent(html_178994d13d2305594a22e722300a3f9d);
+            
+        
+
+        marker_f39c1029f273e234f411e2c00c1a8b30.bindPopup(popup_89eb47ea28c1e32dce9681cb678dbf80)
+        ;
+
+        
+    
+    
+            var marker_7c0240cdd21c90efdec03d5a6a97585d = L.marker(
+                [42.3953617, -73.6978983],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_4619f963421add1c2341e7f41622d02a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_836906b481c9a74a7fb24760da995ebf = $(`<div id="html_836906b481c9a74a7fb24760da995ebf" style="width: 100.0%; height: 100.0%;">Martin Van Buren died here.</div>`)[0];
+                popup_4619f963421add1c2341e7f41622d02a.setContent(html_836906b481c9a74a7fb24760da995ebf);
+            
+        
+
+        marker_7c0240cdd21c90efdec03d5a6a97585d.bindPopup(popup_4619f963421add1c2341e7f41622d02a)
+        ;
+
+        
+    
+    
+            var marker_2733188cd29fe028811731bd98f1b683 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_02290124dd0decc8e67d57fcd4e8b8ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d393d76f2913d8b24d11e75c4666237e = $(`<div id="html_d393d76f2913d8b24d11e75c4666237e" style="width: 100.0%; height: 100.0%;">William Henry Harrison died here.</div>`)[0];
+                popup_02290124dd0decc8e67d57fcd4e8b8ac.setContent(html_d393d76f2913d8b24d11e75c4666237e);
+            
+        
+
+        marker_2733188cd29fe028811731bd98f1b683.bindPopup(popup_02290124dd0decc8e67d57fcd4e8b8ac)
+        ;
+
+        
+    
+    
+            var marker_20c911f48db498b5e45d05e35294f3b3 = L.marker(
+                [37.5385087, -77.43428],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_0bf6bbd768e459a358b475923fbabe1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee9d50ee3c733abc7d5c59da06cd565 = $(`<div id="html_6ee9d50ee3c733abc7d5c59da06cd565" style="width: 100.0%; height: 100.0%;">John Tyler died here.</div>`)[0];
+                popup_0bf6bbd768e459a358b475923fbabe1e.setContent(html_6ee9d50ee3c733abc7d5c59da06cd565);
+            
+        
+
+        marker_20c911f48db498b5e45d05e35294f3b3.bindPopup(popup_0bf6bbd768e459a358b475923fbabe1e)
+        ;
+
+        
+    
+    
+            var marker_c5ddb84ede8646e7a12230a53c7ccb5e = L.marker(
+                [36.1622767, -86.7742984],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_f7742a32688fd0cc9bc8965316e52e0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e21ab096affa6e436aa0ef5a4d612a1c = $(`<div id="html_e21ab096affa6e436aa0ef5a4d612a1c" style="width: 100.0%; height: 100.0%;">James K. Polk died here.</div>`)[0];
+                popup_f7742a32688fd0cc9bc8965316e52e0d.setContent(html_e21ab096affa6e436aa0ef5a4d612a1c);
+            
+        
+
+        marker_c5ddb84ede8646e7a12230a53c7ccb5e.bindPopup(popup_f7742a32688fd0cc9bc8965316e52e0d)
+        ;
+
+        
+    
+    
+            var marker_cf36e3e800c829b4f86611f67d7cbc14 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_ca1e5c9009920dcab23f82d0ba7250df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04a9fa991a084a09e62c920d6bcad58f = $(`<div id="html_04a9fa991a084a09e62c920d6bcad58f" style="width: 100.0%; height: 100.0%;">Zachary Taylor died here.</div>`)[0];
+                popup_ca1e5c9009920dcab23f82d0ba7250df.setContent(html_04a9fa991a084a09e62c920d6bcad58f);
+            
+        
+
+        marker_cf36e3e800c829b4f86611f67d7cbc14.bindPopup(popup_ca1e5c9009920dcab23f82d0ba7250df)
+        ;
+
+        
+    
+    
+            var marker_4dca07ddc2836dffc249e856ef4901b2 = L.marker(
+                [42.8867166, -78.8783922],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_27c6634e4f4dd91689394832d4bdd693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce86837533c8ef020affa6e84f687be4 = $(`<div id="html_ce86837533c8ef020affa6e84f687be4" style="width: 100.0%; height: 100.0%;">Millard Fillmore died here.</div>`)[0];
+                popup_27c6634e4f4dd91689394832d4bdd693.setContent(html_ce86837533c8ef020affa6e84f687be4);
+            
+        
+
+        marker_4dca07ddc2836dffc249e856ef4901b2.bindPopup(popup_27c6634e4f4dd91689394832d4bdd693)
+        ;
+
+        
+    
+    
+            var marker_a83a8a82beea9015ba7a2d6d76e47719 = L.marker(
+                [40.03813, -76.3056686],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_8e296f54c92bacf398f5e72df4cb00be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66256d08dfdcc8b80313b885a612ade8 = $(`<div id="html_66256d08dfdcc8b80313b885a612ade8" style="width: 100.0%; height: 100.0%;">James Buchanan died here.</div>`)[0];
+                popup_8e296f54c92bacf398f5e72df4cb00be.setContent(html_66256d08dfdcc8b80313b885a612ade8);
+            
+        
+
+        marker_a83a8a82beea9015ba7a2d6d76e47719.bindPopup(popup_8e296f54c92bacf398f5e72df4cb00be)
+        ;
+
+        
+    
+    
+            var marker_b9b5a9a9caea7c10454821815bec3bd9 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_4b486cdfc4aa52d428b40e57d7290bce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd86e051c576e8f52e90cc4a1d6d4a63 = $(`<div id="html_fd86e051c576e8f52e90cc4a1d6d4a63" style="width: 100.0%; height: 100.0%;">Abraham Lincoln died here.</div>`)[0];
+                popup_4b486cdfc4aa52d428b40e57d7290bce.setContent(html_fd86e051c576e8f52e90cc4a1d6d4a63);
+            
+        
+
+        marker_b9b5a9a9caea7c10454821815bec3bd9.bindPopup(popup_4b486cdfc4aa52d428b40e57d7290bce)
+        ;
+
+        
+    
+    
+            var marker_dbf042696418bdf6114a44174aa40745 = L.marker(
+                [36.3487756, -82.2107617],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_5aa5ee876723d7c9c5124e79d0de7453 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83ae00806ea1b02baca7effec9097d55 = $(`<div id="html_83ae00806ea1b02baca7effec9097d55" style="width: 100.0%; height: 100.0%;">Andrew Johnson died here.</div>`)[0];
+                popup_5aa5ee876723d7c9c5124e79d0de7453.setContent(html_83ae00806ea1b02baca7effec9097d55);
+            
+        
+
+        marker_dbf042696418bdf6114a44174aa40745.bindPopup(popup_5aa5ee876723d7c9c5124e79d0de7453)
+        ;
+
+        
+    
+    
+            var marker_7aeca6e9e3625bc63c811a804f644fe3 = L.marker(
+                [43.1800049, -73.7443092],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_ff023c206a72e7db91c62425afdcc598 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bcc55d1c8b2d7406fa1d604ef628190 = $(`<div id="html_4bcc55d1c8b2d7406fa1d604ef628190" style="width: 100.0%; height: 100.0%;">Ulysses S. Grant died here.</div>`)[0];
+                popup_ff023c206a72e7db91c62425afdcc598.setContent(html_4bcc55d1c8b2d7406fa1d604ef628190);
+            
+        
+
+        marker_7aeca6e9e3625bc63c811a804f644fe3.bindPopup(popup_ff023c206a72e7db91c62425afdcc598)
+        ;
+
+        
+    
+    
+            var marker_40496270bb11a0a74ac24b5c4c244c7d = L.marker(
+                [41.3473413, -83.1134972],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_d1c342e03f800d0bde9b2c1a8d6b1a5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fd7b9f6441f4b80c092b013b99c44bd = $(`<div id="html_3fd7b9f6441f4b80c092b013b99c44bd" style="width: 100.0%; height: 100.0%;">Rutherford B. Hayes died here.</div>`)[0];
+                popup_d1c342e03f800d0bde9b2c1a8d6b1a5c.setContent(html_3fd7b9f6441f4b80c092b013b99c44bd);
+            
+        
+
+        marker_40496270bb11a0a74ac24b5c4c244c7d.bindPopup(popup_d1c342e03f800d0bde9b2c1a8d6b1a5c)
+        ;
+
+        
+    
+    
+            var marker_ce2042aea067805e21ce77b8425eb4be = L.marker(
+                [40.2692785, -73.9918038],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_1bd4a68c104d901520762ed0901bb164 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_171152103c76a63d33ae8db99fd87418 = $(`<div id="html_171152103c76a63d33ae8db99fd87418" style="width: 100.0%; height: 100.0%;">James A. Garfield died here.</div>`)[0];
+                popup_1bd4a68c104d901520762ed0901bb164.setContent(html_171152103c76a63d33ae8db99fd87418);
+            
+        
+
+        marker_ce2042aea067805e21ce77b8425eb4be.bindPopup(popup_1bd4a68c104d901520762ed0901bb164)
+        ;
+
+        
+    
+    
+            var marker_3201ebab6d1b94723472ed1b684177bc = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_a9ff9c8d6c4074a25c65752404121555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9507d9f16db7f679615bf2a94178da8 = $(`<div id="html_b9507d9f16db7f679615bf2a94178da8" style="width: 100.0%; height: 100.0%;">Chester Arthur died here.</div>`)[0];
+                popup_a9ff9c8d6c4074a25c65752404121555.setContent(html_b9507d9f16db7f679615bf2a94178da8);
+            
+        
+
+        marker_3201ebab6d1b94723472ed1b684177bc.bindPopup(popup_a9ff9c8d6c4074a25c65752404121555)
+        ;
+
+        
+    
+    
+            var marker_0f5530d71cb24bfe3a9cff08c1374b22 = L.marker(
+                [40.3492744, -74.6592958],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_e8b8ff46e41578d9d3f5b8137f7be4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1177d36a0d580b3d2f31bccc8ca1ae1b = $(`<div id="html_1177d36a0d580b3d2f31bccc8ca1ae1b" style="width: 100.0%; height: 100.0%;">Grover Cleveland died here.</div>`)[0];
+                popup_e8b8ff46e41578d9d3f5b8137f7be4e5.setContent(html_1177d36a0d580b3d2f31bccc8ca1ae1b);
+            
+        
+
+        marker_0f5530d71cb24bfe3a9cff08c1374b22.bindPopup(popup_e8b8ff46e41578d9d3f5b8137f7be4e5)
+        ;
+
+        
+    
+    
+            var marker_d86103c528b4956a101af93c2bf97297 = L.marker(
+                [39.7683331, -86.1583502],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_97860e01d0a0c020853b5c9663d19ef5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bfa4815471e7affc179428f9d36b91a = $(`<div id="html_1bfa4815471e7affc179428f9d36b91a" style="width: 100.0%; height: 100.0%;">Benjamin Harrison died here.</div>`)[0];
+                popup_97860e01d0a0c020853b5c9663d19ef5.setContent(html_1bfa4815471e7affc179428f9d36b91a);
+            
+        
+
+        marker_d86103c528b4956a101af93c2bf97297.bindPopup(popup_97860e01d0a0c020853b5c9663d19ef5)
+        ;
+
+        
+    
+    
+            var marker_6d93e6c2485f7207bf1e37251c1a4485 = L.marker(
+                [42.8867166, -78.8783922],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_6d7ee1dc5e33b97af725df3483e6c524 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b17f925bfc101a57b9ba3c89241d4a0 = $(`<div id="html_0b17f925bfc101a57b9ba3c89241d4a0" style="width: 100.0%; height: 100.0%;">William McKinley died here.</div>`)[0];
+                popup_6d7ee1dc5e33b97af725df3483e6c524.setContent(html_0b17f925bfc101a57b9ba3c89241d4a0);
+            
+        
+
+        marker_6d93e6c2485f7207bf1e37251c1a4485.bindPopup(popup_6d7ee1dc5e33b97af725df3483e6c524)
+        ;
+
+        
+    
+    
+            var marker_a79cf4ff3c53404e3b9c1b75fd1ba01a = L.marker(
+                [40.769652199999996, -73.4998644683956],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_6d97e3272631e6ab4f962c1c4b2ac8a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a61e4e3877b8113be6a2d1821b1f2dba = $(`<div id="html_a61e4e3877b8113be6a2d1821b1f2dba" style="width: 100.0%; height: 100.0%;">Theodore Roosevelt died here.</div>`)[0];
+                popup_6d97e3272631e6ab4f962c1c4b2ac8a1.setContent(html_a61e4e3877b8113be6a2d1821b1f2dba);
+            
+        
+
+        marker_a79cf4ff3c53404e3b9c1b75fd1ba01a.bindPopup(popup_6d97e3272631e6ab4f962c1c4b2ac8a1)
+        ;
+
+        
+    
+    
+            var marker_4e63459285c5d13e27ab0d9d0162c7d7 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_9925a9fe95ca25b15b6b3588c2cb9438 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdfff57e7fc2c17466f53e34c02532b6 = $(`<div id="html_bdfff57e7fc2c17466f53e34c02532b6" style="width: 100.0%; height: 100.0%;">William Howard Taft died here.</div>`)[0];
+                popup_9925a9fe95ca25b15b6b3588c2cb9438.setContent(html_bdfff57e7fc2c17466f53e34c02532b6);
+            
+        
+
+        marker_4e63459285c5d13e27ab0d9d0162c7d7.bindPopup(popup_9925a9fe95ca25b15b6b3588c2cb9438)
+        ;
+
+        
+    
+    
+            var marker_ea23c9d0df9910a1719d604127e8e832 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_77e97afca426520b378249bd46426bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9ba29186e8ea422296ed0fe8182059 = $(`<div id="html_6b9ba29186e8ea422296ed0fe8182059" style="width: 100.0%; height: 100.0%;">Woodrow Wilson died here.</div>`)[0];
+                popup_77e97afca426520b378249bd46426bcf.setContent(html_6b9ba29186e8ea422296ed0fe8182059);
+            
+        
+
+        marker_ea23c9d0df9910a1719d604127e8e832.bindPopup(popup_77e97afca426520b378249bd46426bcf)
+        ;
+
+        
+    
+    
+            var marker_477a49fe94ebb7b6a8edad982bbe9ec8 = L.marker(
+                [37.7790262, -122.419906],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_6efc5f0dd1b4de321d5c6b06d6a62d42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcd0d6acb1cf967843c735942caf60ae = $(`<div id="html_dcd0d6acb1cf967843c735942caf60ae" style="width: 100.0%; height: 100.0%;">Warren G. Harding died here.</div>`)[0];
+                popup_6efc5f0dd1b4de321d5c6b06d6a62d42.setContent(html_dcd0d6acb1cf967843c735942caf60ae);
+            
+        
+
+        marker_477a49fe94ebb7b6a8edad982bbe9ec8.bindPopup(popup_6efc5f0dd1b4de321d5c6b06d6a62d42)
+        ;
+
+        
+    
+    
+            var marker_dad1d9ab452073c777e76ec44c35a6fc = L.marker(
+                [42.3178989, -72.6311006],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_9d52fe22534198a41dd674f25cedfd6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d38e251db4cabf6b8d87b79dfb94903 = $(`<div id="html_3d38e251db4cabf6b8d87b79dfb94903" style="width: 100.0%; height: 100.0%;">Calvin Coolidge died here.</div>`)[0];
+                popup_9d52fe22534198a41dd674f25cedfd6d.setContent(html_3d38e251db4cabf6b8d87b79dfb94903);
+            
+        
+
+        marker_dad1d9ab452073c777e76ec44c35a6fc.bindPopup(popup_9d52fe22534198a41dd674f25cedfd6d)
+        ;
+
+        
+    
+    
+            var marker_3c216228994939bb53211274789cabbd = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_230a8cf524b9f0ac993c0afed1a5135d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58840c42b29d6a8f37b2420e64a4dea4 = $(`<div id="html_58840c42b29d6a8f37b2420e64a4dea4" style="width: 100.0%; height: 100.0%;">Herbert Hoover died here.</div>`)[0];
+                popup_230a8cf524b9f0ac993c0afed1a5135d.setContent(html_58840c42b29d6a8f37b2420e64a4dea4);
+            
+        
+
+        marker_3c216228994939bb53211274789cabbd.bindPopup(popup_230a8cf524b9f0ac993c0afed1a5135d)
+        ;
+
+        
+    
+    
+            var marker_d37908a56391463f591defbdbe1d2a87 = L.marker(
+                [32.8904081, -84.6810381],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_1d8a8b8dc0000ec62a1632dda05f109c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e45c01b9a59209b8385fe1bacef4cef = $(`<div id="html_8e45c01b9a59209b8385fe1bacef4cef" style="width: 100.0%; height: 100.0%;">Franklin Roosevelt died here.</div>`)[0];
+                popup_1d8a8b8dc0000ec62a1632dda05f109c.setContent(html_8e45c01b9a59209b8385fe1bacef4cef);
+            
+        
+
+        marker_d37908a56391463f591defbdbe1d2a87.bindPopup(popup_1d8a8b8dc0000ec62a1632dda05f109c)
+        ;
+
+        
+    
+    
+            var marker_ba48da7929cf2434ba1dd38ba1b8cba7 = L.marker(
+                [39.100105, -94.5781416],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_eb1f00bd078b6581d3b3886eb81561a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51c1b482878236dddfdcdeccbf70a3c5 = $(`<div id="html_51c1b482878236dddfdcdeccbf70a3c5" style="width: 100.0%; height: 100.0%;">Harry S. Truman died here.</div>`)[0];
+                popup_eb1f00bd078b6581d3b3886eb81561a5.setContent(html_51c1b482878236dddfdcdeccbf70a3c5);
+            
+        
+
+        marker_ba48da7929cf2434ba1dd38ba1b8cba7.bindPopup(popup_eb1f00bd078b6581d3b3886eb81561a5)
+        ;
+
+        
+    
+    
+            var marker_95e5b35d03497cc0e98da0e4b06c21c1 = L.marker(
+                [48.125152, -123.4525429],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_ee2bf1bf7ea07ce3681e983ac22b02c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8701c803b479c8bdf005c690f9b5f68 = $(`<div id="html_e8701c803b479c8bdf005c690f9b5f68" style="width: 100.0%; height: 100.0%;">Dwight Eisenhower died here.</div>`)[0];
+                popup_ee2bf1bf7ea07ce3681e983ac22b02c8.setContent(html_e8701c803b479c8bdf005c690f9b5f68);
+            
+        
+
+        marker_95e5b35d03497cc0e98da0e4b06c21c1.bindPopup(popup_ee2bf1bf7ea07ce3681e983ac22b02c8)
+        ;
+
+        
+    
+    
+            var marker_1baddc54f211faa1a585d0d827fdf194 = L.marker(
+                [32.7762719, -96.7968559],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_8515ebb656f5dfafd2647cf245e676a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f334e73ae11a7f2a320edf522fdda0 = $(`<div id="html_c7f334e73ae11a7f2a320edf522fdda0" style="width: 100.0%; height: 100.0%;">John F. Kennedy died here.</div>`)[0];
+                popup_8515ebb656f5dfafd2647cf245e676a1.setContent(html_c7f334e73ae11a7f2a320edf522fdda0);
+            
+        
+
+        marker_1baddc54f211faa1a585d0d827fdf194.bindPopup(popup_8515ebb656f5dfafd2647cf245e676a1)
+        ;
+
+        
+    
+    
+            var marker_cebedf05b15d35cf05d60996be4b9bda = L.marker(
+                [30.2954086, -98.9086643],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_006799ba86bcd34275ce78ed7ff22fc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ded44202b58e7de5516d035ec06d501 = $(`<div id="html_4ded44202b58e7de5516d035ec06d501" style="width: 100.0%; height: 100.0%;">Lyndon B. Johnson died here.</div>`)[0];
+                popup_006799ba86bcd34275ce78ed7ff22fc9.setContent(html_4ded44202b58e7de5516d035ec06d501);
+            
+        
+
+        marker_cebedf05b15d35cf05d60996be4b9bda.bindPopup(popup_006799ba86bcd34275ce78ed7ff22fc9)
+        ;
+
+        
+    
+    
+            var marker_8f79bb80f5911201966cff1bee0426e6 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_0a9e4380376a418a314b999e1555a917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ca9433532df2ce6e5559b69dc24810c = $(`<div id="html_8ca9433532df2ce6e5559b69dc24810c" style="width: 100.0%; height: 100.0%;">Richard Nixon died here.</div>`)[0];
+                popup_0a9e4380376a418a314b999e1555a917.setContent(html_8ca9433532df2ce6e5559b69dc24810c);
+            
+        
+
+        marker_8f79bb80f5911201966cff1bee0426e6.bindPopup(popup_0a9e4380376a418a314b999e1555a917)
+        ;
+
+        
+    
+    
+            var marker_fd477d406c1647c400bf537207d779b8 = L.marker(
+                [33.814819850000006, -116.40833097632355],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_14bccbbd5c727e8c6502a6984b12c1be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62a4283faee5d9b9323b49c4a442904 = $(`<div id="html_d62a4283faee5d9b9323b49c4a442904" style="width: 100.0%; height: 100.0%;">Gerald Ford died here.</div>`)[0];
+                popup_14bccbbd5c727e8c6502a6984b12c1be.setContent(html_d62a4283faee5d9b9323b49c4a442904);
+            
+        
+
+        marker_fd477d406c1647c400bf537207d779b8.bindPopup(popup_14bccbbd5c727e8c6502a6984b12c1be)
+        ;
+
+        
+    
+    
+            var marker_e067d36cdd42e2b7ba4a59298bfcfabc = L.marker(
+                [34.0536909, -118.242766],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_53a2a44abf90d4d01c8ce39ae084aaa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b954a8333158b6825fe27db308944924 = $(`<div id="html_b954a8333158b6825fe27db308944924" style="width: 100.0%; height: 100.0%;">Ronald Reagan died here.</div>`)[0];
+                popup_53a2a44abf90d4d01c8ce39ae084aaa4.setContent(html_b954a8333158b6825fe27db308944924);
+            
+        
+
+        marker_e067d36cdd42e2b7ba4a59298bfcfabc.bindPopup(popup_53a2a44abf90d4d01c8ce39ae084aaa4)
+        ;
+
+        
+    
+    
+            var marker_0ae09ec5f46382acb92d759cfbcf4c77 = L.marker(
+                [29.7589382, -95.3676974],
+                {}
+            ).addTo(map_9818831491b873e578fe3134f6c224bf);
+        
+    
+        var popup_1044ccf117843287fe2d7685ce03247b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ac50961dde4305bd3f59a7bff3dfedb = $(`<div id="html_6ac50961dde4305bd3f59a7bff3dfedb" style="width: 100.0%; height: 100.0%;">George Bush died here.</div>`)[0];
+                popup_1044ccf117843287fe2d7685ce03247b.setContent(html_6ac50961dde4305bd3f59a7bff3dfedb);
+            
+        
+
+        marker_0ae09ec5f46382acb92d759cfbcf4c77.bindPopup(popup_1044ccf117843287fe2d7685ce03247b)
+        ;
+
+        
+    
+</script>
+</html>
